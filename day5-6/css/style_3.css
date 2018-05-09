@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+    border: 1px solid #e4e4e4;
+}
+
+.header {
+    padding: 25px;
+    background-color: #858585;
+    color: #fff;
+    font-weight: bold;
+}
+
+.title-2 {
+    background-color: #d6d6d6;
+    float: left;
+    padding: 30px;
+}
+
+.key {
+    font-weight: bold;
+}
+
+
+.part-1, .part-2, .part-3, .part-4 {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.part-1 .info, .part-2 .info {
+    float: left;
+    margin-right: 55px;
+}
+.part-1 .info span, .part-2 .info span {
+    margin-right: 10px;
+}
+
+.part-3 .info .key, .part-4 .info .key, .part-5 .info .key {
+    float: left;
+}

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.header {
+    float: left;
+    margin-bottom: -3000px;
+    padding-bottom: 3000px;
+    padding-top: 50px;
+    background-color: #74a5f4;
+    width: 245px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main {
+    float: left;
+    padding: 20px;
+    margin-bottom: -3000px;
+    padding-bottom: 3000px;
+}
+
+.part {
+    margin-bottom: 25px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.info {
+    margin: 10px 0 10px 0;
+}
+
+.key {
+    font-weight: bold;
+}
+
+.part-1 .info, .part-2 .info {
+    float: left;
+    margin-right: 55px;
+}
+.part-1 .info span, .part-2 .info span {
+    margin-right: 10px;
+}
+
+.part-3 .info .key, .part-4 .info .key, .part-5 .info .key {
+    float: left;
+}
+.part-3 .info .value, .part-4 .info .value, .part-5 .info .value {
+    display: block;
+    clear: both;
+}

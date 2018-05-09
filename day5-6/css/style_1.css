@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+  }
+
+.container {
+    margin: 20px 0 0 5px;
+}
+
+.part {
+    margin-top: 25px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.title-1 {
+    font-size: 36px;
+}
+
+.title-2 {
+    font-size: 26px;;
+}
+
+.info {
+    margin: 10px 0 10px 0;
+}
+
+.key {
+    font-weight: bold;
+}
+
+.part-1 .info, .part-2 .info {
+    float: left;
+    margin-right: 55px;
+}
+.part-1 .info span, .part-2 .info span {
+    margin-right: 10px;
+}
+
+.part-3 .info .key, .part-4 .info .key, .part-5 .info .key {
+    float: left;
+}
+.part-3 .info .value, .part-4 .info .value, .part-5 .info .value {
+    display: block;
+    clear: both;
+}
